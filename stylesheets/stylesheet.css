@@ -4,6 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -308,16 +309,19 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  text-transform: uppercase;
 }
 
 #project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
   background: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0 auto 25px;
   text-shadow: #111 0px 0px 10px;
 }
 
