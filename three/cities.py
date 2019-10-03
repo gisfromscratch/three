@@ -29,6 +29,9 @@ servers = {
     'bloomington': {
         'endpoint': 'https://bloomington.in.gov/crm/open311/v2/'
     },
+    'bonn': {
+        'endpoint': 'https://anliegen.bonn.de/georeport/v2/'
+    },
     'boston': {
         'endpoint': 'https://mayors24.cityofboston.gov/open311/v2/'
     },
